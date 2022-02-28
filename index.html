@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a div</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
+    <meta property="og:title" content="Whack a Div" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://my.site.com" />
+    <meta property="og:image" content="http://my.site.com/images/thumb.png" />
+    <meta property="og:description" content="Site description" />
+    <meta name="theme-color" content="#FF0000">
+
+    <!-- Include this to make the og:image larger -->
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <h1 id="score-cnt">Score: 0</h1>
+    <div class="clickable-div" onclick="clickDiv(this)"></div>
+
+    <script src="./app.js"></script>
+    <audio src="./tick.mp3" id="tick"></audio>
+</body>
+</html>
